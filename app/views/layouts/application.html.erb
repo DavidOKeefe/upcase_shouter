@@ -17,7 +17,11 @@
   <% end %>
 </div>
   <% if alert %>
-  <p><%= alert%></p>
+    <p><%= alert%></p>
+  <% end %>
+
+  <% if notice %>
+    <p><%= notice %></p>
   <% end %>
 
 <%= yield %>
