@@ -26,3 +26,6 @@ group :development do
   gem 'spring'
 end
 
+gem 'sunspot_rails'
+gem 'sunspot_solr'
+
